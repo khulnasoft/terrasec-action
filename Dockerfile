@@ -2,7 +2,7 @@
 FROM khulnasoft/terrascan:1.18.11 as terrascan
 
 # Base Image
-FROM alpine:3.19
+FROM alpine:3.20
 
 RUN apk update && \
     apk add --no-cache git openssh
